@@ -1,0 +1,49 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            color: #5c67f2;
+            margin-top: 50px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #444;
+        }
+
+        .image {
+            display: block;
+            max-width: 100%;
+            height: auto;
+            margin: 30px auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-image: url('https://www.bing.com/images/search?view=detailV2&ccid=OVyXgy1N&id=D34BFCBC27AF1F5866D63B6E87DF20A559D4551A&thid=OIF.0ZLAuB20qLPCuQgT06LTFA&mediaurl=https%3a%2f%2fstatic0.gamerantimages.com%2fwordpress%2fwp-content%2fuploads%2f2024%2f11%2farcane-jinx-fate.jpg&cdnurl=https%3a%2f%2fth.bing.com%2fth%2fid%2fR.395c97832d4d0deb28bd60c3ad90c8b5%3frik%3d%26pid%3dImgRaw%26r%3d0&exph=1000&expw=2000&q=powder+arcane+season+2&simid=6972792640036&FORM=IRPRST&ck=D192C0B81DB4A8B3C2B90813D3A2D314&selectedIndex=56&itb=0');
+            background-size: cover;
+            background-position: center;
+            width: 80%;
+            height: 400px;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+
+            .image {
+                width: 90%;
+                height: 250px;
+            }
+        }
